@@ -23,6 +23,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
   lineHeight: 1.55,
   fontFamily:
     '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji',
+  fontSmoothing: 'custom',
   fontFamilyMonospace:
     'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace',
   primaryColor: 'blue',

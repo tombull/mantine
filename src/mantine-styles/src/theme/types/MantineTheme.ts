@@ -52,6 +52,7 @@ export interface MantineTheme {
   black: string;
   colors: MantineThemeColors;
   fontFamily: CSSProperties['fontFamily'];
+  fontSmoothing: 'default' | 'custom';
   lineHeight: CSSProperties['lineHeight'];
   transitionTimingFunction: CSSProperties['transitionTimingFunction'];
   fontFamilyMonospace: CSSProperties['fontFamily'];
